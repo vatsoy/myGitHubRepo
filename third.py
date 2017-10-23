@@ -374,7 +374,7 @@
 # print my_ecar.display_car()
 # print my_car.condition
 # print my_ecar.condition
-# ========================================================================
+# ===========================================================================
 class Point3D(object):
   def __init__(self, x, y, z):
     self.x = x
@@ -384,7 +384,7 @@ class Point3D(object):
     return "(%d, %d, %d)" % (self.x, self.y, self.z)
 
 my_point = Point3D(x=1, y=2, z=3)
-print my_point 
+print my_point
 # ========================================================================
 
 # ========================================================================
