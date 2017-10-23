@@ -5,7 +5,7 @@
 #     for row in readCSV:
 #         print(row[0], row[3])
 #=====================================================================================
-import csv 
+import csv
 
 with open('C:\Users\Vadim\Projects\Python\Test_CSV2.csv') as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
