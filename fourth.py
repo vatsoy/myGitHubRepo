@@ -15,7 +15,9 @@
 #     for line in f:
 #         print(line)
 #===================================================================
-# example of try/except/else
+
+# testing example of try/except/else
+
 try:
     print(int('25'))
 except:                 #if printing failed
