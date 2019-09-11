@@ -48,7 +48,6 @@ class Animal:
         return "{} is {} cm tall and {} kg and say {}".format(self.__name, self.__height,
                                                               self.__weight, self.__sound)
 
-
 cat = Animal('King', 33, 10, 'Meow')
 
 print(cat.toString())
@@ -89,7 +88,6 @@ class AnimalTesting:
         any_name.get_type()
     def print_name(self, any_object):
         any_object.print_name()
-
 
 test_animals = AnimalTesting()
 test_animals.get_type(cat)
