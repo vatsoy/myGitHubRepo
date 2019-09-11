@@ -1,5 +1,6 @@
 # import csv
-##reading from csv file
+
+# reading from csv file
 # with open('C:\Users\Vadim\Projects\Python\Test_CSV2.csv') as csvfile:
 #     readCSV = csv.reader(csvfile, delimiter=',')
 #     for row in readCSV:
